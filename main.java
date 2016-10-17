@@ -3,10 +3,11 @@
  */
 public class main {
     public static void main(String[] args) {
-        int a = 10;
-        while (a >= 1) {
+        int a = 1;
+        int count = 0;
+        while (a <= 10) {
             System.out.println(a);
-            a--;
+            a = a + 2;
         }
 
         }
